@@ -11,7 +11,6 @@
 
 <div class="navbar" id="topNav">
   <a href="index.php" <?= ($page =="home" ? "class='active'" : '') ?> >Shannon Birch</a>
-  <a href="about.php" <?= ($page =="about" ? "class='active'" : '') ?>>About</a>
   <a href="projects.php" <?= ($page =="projects" ? "class='active'" : '')?> >Projects</a>
   <a href="resources/files/shannon-birch-resume.pdf" target="_blank">Resume</a>
   <a href="contact.php" <?= ($page =="contact" ? "class='active'" : '') ?> >Contact</a>

@@ -1,3 +1,6 @@
+html{
+  height: 100%
+}
 body {
   margin: 0px;
   background: url(../files/images/tourcn.jpg) no-repeat center center fixed;
@@ -5,12 +8,19 @@ body {
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
 }
 
 .wrapper {
   margin: auto;
   width: 50%;
+  flex: 1 0 auto;
+
+
 }
+
 
 .content {
 

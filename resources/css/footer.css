@@ -1,0 +1,24 @@
+footer {
+  background-color: #142326;
+  overflow: hidden;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+footer a {
+  float: none;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer a:hover {
+  color: #9CC1D9;
+}
+
+footer .icon {
+  display: none;
+}
