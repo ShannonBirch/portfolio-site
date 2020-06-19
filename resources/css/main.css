@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  background: url(../files/images/tourcn.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.wrapper {
+  margin: auto;
+  width: 50%;
+}
+
+.content {
+
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+
+  width: match-parent;
+  background: rgba(186, 205, 217, 0.6);
+  border-radius: 5px;
+
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  margin: 0 auto;
+  display:block;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+
+
+  background-color: #142326;
+  color: white;
+  text-decoration: none;
+}
